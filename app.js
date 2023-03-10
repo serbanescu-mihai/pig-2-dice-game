@@ -123,7 +123,8 @@ holdDice.addEventListener("click", () => {
       document
         .querySelector(`.player-${activePlayer}`)
         .classList.remove("player-active");
-      dice.classList.add("hidden");
+      dice1.classList.add("hidden");
+      dice2.classList.add("hidden");
     } else {
       switchPlayer();
     }
